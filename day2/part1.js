@@ -28,7 +28,6 @@ for (let i = 0; i < input.length; i++) {
       total += 6;
     }
   }
-
   total += shapeScores[input2];
 }
 
