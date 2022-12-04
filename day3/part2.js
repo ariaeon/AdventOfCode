@@ -8,9 +8,6 @@ for (let i = 0; i < input.length; i += 3) {
   const bag2 = input[i + 1].split("");
   const bag3 = input[i + 2].split("");
 
-  let shortest = Math.min(bag1.length, bag2.length, bag3.length);
-  console.log(shortest);
-
   let duplicate;
   let index = 0;
 
